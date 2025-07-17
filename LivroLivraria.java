@@ -3,10 +3,50 @@ public class LivroLivraria extends Livro {
 
 // atributos
 
-double preco;
-boolean novoUsado; // 0 - novo 1 - usado 
-String localPrateleira;
-String categoria;
+private double preco;
+private boolean novoUsado; // 0 - novo 1 - usado 
+private  String localPrateleira;
+private String categoria;
+
+//localPrateleira
+public String getLocalPrateleira(){
+return localPrateleira;
+
+}
+
+public void setLocalPrateleira(String localPrateleira){
+  this.localPrateleira = localPrateleira;
+
+}
+
+//categoria
+public String getCategoria(){
+    return categoria;
+}
+
+public void setCategoria(String categoria){
+    this.categoria = categoria;
+}
+
+//novoUsado
+public boolean getNovoUsado(){
+return novoUsado;
+
+}
+
+public void setNovoUsado(boolean  novoUsado){
+  this.novoUsado = novoUsado;
+
+}
+
+//preco
+public double getPreco(){
+    return preco;
+}
+
+public void setPreco(double preco){
+    this.preco = preco;
+}
 
 
 //Metodos 
