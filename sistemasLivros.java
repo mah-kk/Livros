@@ -127,6 +127,13 @@ String mensagem1 = "\nCodigo:"+livro.getCodigo()+
            System.out.println("\nLivro Livraria:\n"+mensagem3);
 
 
+
+              Livro novoLivro = new Livro();
+                  System.out.println("Novo livro:"+novoLivro.getTitulo());
+                  novoLivro.setTitulo("Novo titulo legal");
+                  System.out.println("Novo livro:"+novoLivro.getTitulo());
+
+
   }
 
 
