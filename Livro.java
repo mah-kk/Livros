@@ -7,7 +7,23 @@ private String editora;
 private int nrPaginas;
 private int edicao;
 
-// Metodos 
+
+
+
+
+// Metodos construtor (Serve para construir seu objeto com valores default )
+Livro(){
+this.codigo = 0;
+this.autor = " ";
+this.titulo = " ";
+this.editora = " ";
+this.nrPaginas = 0;
+this.edicao = 0;
+
+
+
+}
+
 //codigo
 public int getCodigo(){
 return codigo;
