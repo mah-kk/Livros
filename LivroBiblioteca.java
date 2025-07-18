@@ -89,6 +89,20 @@ System.out.println("Estou Localizando livro da Biblioteca ");
 
 }
 
+@Override
+public void Ler(){
+System.out.println("\nEstou lendo um livro que peguei da biblioteca.");
+
+}
+
+@Override
+public void Cadastrar(){
+System.out.println("\nEstou cadastrando livros da biblioteca.");
+
+}
+
+
+
 }
 
 

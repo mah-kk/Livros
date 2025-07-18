@@ -67,6 +67,19 @@ System.out.println("Estou Localizando livro da Livraria ");
 
 }
 
+@Override
+public void Ler(){
+System.out.println("\nEstou lendo um livro que comprei em uma livraria");
+
+}
+
+@Override
+public void Cadastrar(){
+System.out.println("\nEstou cadastrando livros da livraria");
+
+}
+
+
 
 
 
