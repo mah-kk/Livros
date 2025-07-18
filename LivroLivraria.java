@@ -55,10 +55,20 @@ System.out.println("\nEstou comprando... ");
 
 }
 
+
 public void Vender(){
-System.out.println("\nEstou vendendo.. ");
+System.out.println("\nEstou vendendo livros na livraria ");
 
 }
+
+@Override
+public void Localizar(){
+System.out.println("Estou Localizando livro da Livraria ");
+
+}
+
+
+
 
 }
 

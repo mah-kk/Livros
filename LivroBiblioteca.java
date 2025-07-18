@@ -8,8 +8,28 @@ private String categoria;
 private int prazoEntrega;
 private String nomeQuemEmprestou;
 
+LivroBiblioteca(){
 
+}
 
+LivroBiblioteca(int codigo,
+                String titulo,
+                String autor,
+                String editora,
+                int nrpaginas ,
+                int edicao,
+               String localPrateleira,
+               String categoria,
+                int prazoEntrega,
+                String nomeQuemEmprestou ){
+//acesso ao metodo construtor pai 
+super( codigo, titulo, autor,  editora,  nrpaginas ,  edicao);
+this.localPrateleira = localPrateleira;
+this.categoria = localPrateleira;
+this.prazoEntrega = prazoEntrega;
+this.nomeQuemEmprestou = nomeQuemEmprestou;
+
+}
 
 
 //localPrateleira
@@ -60,6 +80,12 @@ System.out.println("\nEstou alugando... ");
 
 public void Devolver(){
 System.out.println("Estou devolvendo... ");
+
+}
+
+@Override
+public void Localizar(){
+System.out.println("Estou Localizando livro da Biblioteca ");
 
 }
 

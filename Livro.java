@@ -8,7 +8,15 @@ private int nrPaginas;
 private int edicao;
 
 
+Livro(int codigo,String titulo,String autor, String editora, int nrpaginas , int edicao){
+this.codigo = codigo;
+this.autor = autor;
+this.titulo = titulo;
+this.editora = editora;
+this.nrPaginas = nrpaginas;
+this.edicao = edicao;
 
+}
 
 
 // Metodos construtor (Serve para construir seu objeto com valores default )
@@ -16,6 +24,18 @@ Livro(){
 this.codigo = 0;
 this.autor = " ";
 this.titulo = " ";
+this.editora = " ";
+this.nrPaginas = 0;
+this.edicao = 0;
+
+
+
+}
+
+Livro(int codigo,String titulo){
+this.codigo = codigo;
+this.autor = " ";
+this.titulo = titulo;
 this.editora = " ";
 this.nrPaginas = 0;
 this.edicao = 0;

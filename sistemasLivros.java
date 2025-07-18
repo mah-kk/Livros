@@ -86,7 +86,7 @@
     System.out.println("\nNumero de Paginas do livro Livraria :"+livroLivraria.getNrPaginas());
 
 
-String mensagem1 = "\nCodigo:"+livro.getCodigo()+
+               String mensagem1 = "\nCodigo:"+livro.getCodigo()+
                  "\nTitulo:"+livro.getTitulo()+
                  "\nAutor :"+livro.getAutor()+
                   "\nEdicao :"+livro.getEdicao()+
@@ -96,7 +96,7 @@ String mensagem1 = "\nCodigo:"+livro.getCodigo()+
                 System.out.println("\nLivro:\n"+mensagem1);
 
 
-           String mensagem2 = "\nCodigo:"+livro.getCodigo()+
+                 String mensagem2 = "\nCodigo:"+livro.getCodigo()+
                  "\nTitulo:"+livroBiblioteca.getTitulo()+
                  "\nAutor :"+livroBiblioteca.getAutor()+
                   "\nEdicao :"+livroBiblioteca.getEdicao()+
@@ -127,11 +127,41 @@ String mensagem1 = "\nCodigo:"+livro.getCodigo()+
            System.out.println("\nLivro Livraria:\n"+mensagem3);
 
 
+                  //metodo construtor 
 
               Livro novoLivro = new Livro();
                   System.out.println("Novo livro:"+novoLivro.getTitulo());
                   novoLivro.setTitulo("Novo titulo legal");
                   System.out.println("Novo livro:"+novoLivro.getTitulo());
+
+                  //metodo construtor com parametro
+
+                  Livro livro2 = new Livro(99 , "Titanic");
+                  System.out.println("Livro 2 : "+livro2.getTitulo());
+
+                //metodo construtor com todos os parametros
+                 Livro livro3 = new Livro(1 ,
+                                         "A menina que roubava livros",
+                                         "Andreisse ",
+                                         "Bosch",
+                                         600,
+                                         1
+                                         );
+                      
+    
+                         System.out.println("Livro 3 : "+livro3.getTitulo());
+
+                          LivroBiblioteca livroBiblioteca2 = new LivroBiblioteca(
+                                            13 ,
+                                         "Crepusculo",
+                                         "Vampiros ",
+                                         "Lobos",
+                                         400,
+                                         12,
+                                         "Andar 3",
+                                         "Romance",
+                                         10,
+                                         "Maria");
 
 
   }
